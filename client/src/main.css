@@ -1,0 +1,36 @@
+:root {
+  --color-primary: #172234;
+  --color-primary-shadow: rgba(23, 34, 52, 0.6);
+  --color-accent: #b29f7e;
+  --color-text-main: #ffffff;
+  --color-input-bg: #e0e0e0;
+  --font-lato-14: "Lato", sans-serif 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--color-text-main) !important;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 34px;
+  color: var(--color-primary);
+}

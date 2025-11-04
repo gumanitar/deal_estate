@@ -1,0 +1,21 @@
+services:
+  db:
+    image: mysql:8.0.40
+    container_name: deal-estate
+    environment:
+      MYSQL_DATABASE: 'deal-estate_db'
+      MYSQL_USER: 'user'
+      MYSQL_PASSWORD: 'password'
+      MYSQL_ROOT_PASSWORD: 'password'
+    ports:
+      - '3306:3306'
+    volumes:
+      - deal-estate_db:/var/lib/mysql
+    networks:
+      - deal-estate_network
+
+volumes:
+  deal-estate_db:
+
+networks:
+  deal-estate_network:
