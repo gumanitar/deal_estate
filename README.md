@@ -34,8 +34,8 @@ MySQL (in Docker container)
 # Installation
 1. Clone the repository
 ```
-git clone https://github.com/gumanitar/deal_estate.git
-cd deal-estate
+git clone https://github.com/gumanitar/deal_estate.git .
+
 ```
 
 2. Install dependencies and set up environment variables
